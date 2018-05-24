@@ -1,0 +1,23 @@
+{
+  "name": "almdrx.com",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist -b master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almdrx/almdrx.github.io.git"
+  },
+  "author": "Alfonso Lamadrid",
+  "private": true,
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/almdrx/almdrx.github.io/issues"
+  },
+  "homepage": "https://github.com/almdrx/almdrx.github.io#readme",
+  "devDependencies": {
+    "gh-pages": "git+https://github.com/almdrx/gh-pages.git"
+  }
+}
